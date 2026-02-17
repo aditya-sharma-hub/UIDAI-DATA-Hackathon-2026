@@ -1,9 +1,24 @@
-# 📊 UIDAI Aadhaar Data Quality & Risk Analytics Platform  
- 
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green)
-![Status](https://img.shields.io/badge/Status-Completed-success)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
+<p align="center">
+  <h1 align="center">📊 UIDAI Aadhaar Data Quality & Risk Analytics Platform</h1>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Built%20With-Python-blue?style=for-the-badge&logo=python">
+  <img src="https://img.shields.io/badge/Data%20Analysis-Pandas-green?style=for-the-badge&logo=pandas">
+  <img src="https://img.shields.io/badge/Visualization-Matplotlib-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Anomaly%20Detection-Statistical-red?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Project%20Status-Completed-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/License-MIT-lightgrey?style=for-the-badge">
+</p>
+
+
+<p align="center">
+  <img src="assets/dashboard_overview.png" width="95%">
+</p>
+
+---
+
+
 
 ### *All-India & State-Wise Enrollment, Update Stress, and Anomaly Intelligence*
 
