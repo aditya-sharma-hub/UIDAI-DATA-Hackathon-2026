@@ -65,6 +65,19 @@ This project transforms raw UIDAI data into an **actionable decision-support sys
 
 ---
 
+## 🏗️ System Architecture
+
+<p align="center">
+  <img src="assets/architecture.png" width="85%">
+  <br>
+  <em>
+    End-to-end analytics architecture transforming raw UIDAI datasets into anomaly detection,
+    risk scoring, segmentation, and governance dashboards.
+  </em>
+</p>
+
+---
+
 ## 🔄 Methodology & Pipeline
 
 ```text
@@ -149,6 +162,55 @@ Dashboard & Insights
 - Enables **targeted audits** instead of blanket monitoring approaches  
 
 ---
+
+## 📈 Interactive Analytics Dashboard
+
+The dashboard below translates analytical findings into an interpretable, governance-ready decision support system.
+
+<p align="center">
+  <img src="assets/dashboard_overview.png" width="92%">
+  <br>
+  <em>
+    National-level analytics overview presenting enrolment volumes, demographic and biometric updates,
+    ADR risk score, and temporal system activity trends.
+  </em>
+</p>
+
+---
+
+<p align="center">
+  <img src="assets/state_comparison.png" width="92%">
+  <br>
+  <em>
+    Comparative state performance dynamics integrating enrolment intensity with demographic,
+    biometric, and deviation-based risk indicators.
+  </em>
+</p>
+
+---
+
+<p align="center">
+  <img src="assets/pca_risk_clustering.png" width="85%">
+  <br>
+  <em>
+    PCA-based district risk clustering segmenting operational regions into low, medium,
+    and high-risk categories for targeted governance intervention.
+  </em>
+</p>
+
+---
+
+<p align="center">
+  <img src="assets/audit_table_risk_levels.png" width="96%">
+  <br>
+  <em>
+    District-level audit and behavioral diagnostics enabling granular inspection of enrolments,
+    updates, ADR scores, and operational risk classification.
+  </em>
+</p>
+
+---
+
 ## 🧠 Why This Project Matters
 - Public datasets rarely expose operational risk directly
 - UIDAI operates at nation-scale → small inefficiencies scale massively
@@ -164,16 +226,20 @@ Dashboard & Insights
 - **Interpretability-first design** tailored for governance and policy stakeholders  
 
 ---
-
 ## 🧩 Project Structure
-
-```text
-├── dashboard/               # Final analytics dashboard
-├── notebooks/
-│   ├── UIDAI ALL INDIA.ipynb
-│   └── UIDAI STATES.ipynb
-├── data/
 ```
+├── dashboard/                     # Final analytics dashboard
+├── notebooks/
+│   ├── UIDAI_ALL_INDIA.ipynb
+│   └── UIDAI_STATES.ipynb
+├── data/
+│   └── STATE_DATA/
+├── report/
+│   └── UIDAI_Analysis_Report.pdf
+├── assets/                        # README visuals
+└── README.md
+```
+
 ---
 
 ## 🎯 Impact & Real-World Value
@@ -189,19 +255,20 @@ Dashboard & Insights
 - Demonstrates strong alignment with **UIDAI’s governance, compliance, and public trust objectives**
 
 ---
-## 📌 Key Takeaway
 
-> **This project showcases how large-scale public sector data can be transformed into a real-time, interpretable risk analytics framework that enables effective national governance and operational excellence.**
+## 📌 Key Takeaways
+
+> **This project demonstrates that UIDAI’s aggregated operational data can be transformed into an interpretable, anomaly-aware, and governance-ready risk analytics system enabling targeted audits, early stress detection, and data-driven decision-making.**
+
+- Feature-engineered metrics (DUR, BUR, CES, ADR, ALBI) enable **cross-state comparability**
+- Statistical deviation thresholds successfully capture **temporal anomalies**
+- Low-enrollment districts exhibit **disproportionately high update volatility**
+- Child Enrolment Share (CES) correlates strongly with **biometric update pressure**
+- Composite ADR scoring provides a scalable proxy for **operational stress detection**
+- PCA-based dimensionality reduction reveals **latent district risk structures**
 
 ---
-```
 
-│   └── STATE DATA/
-├── report/
-│   └── UIDAI_Analysis_Report.pdf
-├── visuals/                             # Plots & figures
-└── README.md
-```
 
 ---
 ## 🔮 Future Enhancements
@@ -209,3 +276,7 @@ Dashboard & Insights
 - Isolation Forest / LOF for anomaly detection
 - Real-time streaming dashboard
 - District-level capacity optimization models
+
+---
+⭐ If you found this project insightful, consider starring the repository.
+---
