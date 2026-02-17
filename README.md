@@ -1,5 +1,5 @@
 # 📊 UIDAI Aadhaar Data Quality & Risk Analytics Platform  
-
+ 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
